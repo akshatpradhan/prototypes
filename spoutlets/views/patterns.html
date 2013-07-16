@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Spoutlets &mdash; Main Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <link rel="stylesheet" type="text/css" href="../public/stylesheets/bootstrap.css">
+
+        <!--[if lt IE 9]>
+            <script src="../public/js/html5shiv/iepp.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+       <header>
+          <div class="navbar">
+              <div class="navbar-inner">
+                  <div class="container">
+
+                      <a href="index.html" class="brand"><strong>Spoutlets</strong>.com</a>
+
+                      <div class="greetings">
+                        <div class="greetings-face greetings-rate10"><!-- --></div>
+                        <span>How's it going, greatbillsofire?</span>
+                      </div>                      
+
+                      <ul class="nav pull-right">
+                          <li><a href="#"><i class="icon-cog icon-white"></i> Settings</a></li>
+                          <li><a href="index.html"><i class="icon-off icon-white"></i> Sign out</a></li>
+                      </ul>                 
+                  </div>
+              </div>
+          </div>
+      </header>    
+    <div class="container">       
+        <div id="main" class="clearfix">
+            <div class="row">
+                <div class="page-nav">
+                    <ul class="nav nav-tabs">
+                        <li class="active">
+                            <a href="tracker.html">Mood Tools</a>
+                        </li>
+                        <li>
+                            <a href="vent-stream.html">Social Therapy</a>
+                        </li>
+                        <li>
+                            <a href="#">You time</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    	
+            <div class="row">
+                <div class="tabbable tabs-left nav-left-col">
+                    <ul class="nav nav-tabs">
+                        <li>
+                            <a href="tracker.html"><i class="icon-log-book-header"></i> Tracker</a>
+                        </li>
+                        <li class="active">
+                            <a href="patterns.html"><i class="icon-stats-header"></i> Patterns</a>
+                        </li>
+                        <li>
+                            <a href="meters.html"><i class="icon-map-marker-header"></i> Meters</a>
+                        </li>
+                    </ul>
+
+                </div>
+              
+                <div class="tab-content">
+                    <div class="vertical-border"><!-- --></div>
+                    <div class="tab-pane active">
+                        <header class="page-header-main">
+                            <h1>Patterns <i class="icon-stats-header"></i></h1>
+                        </header>
+
+                        <section>
+                            <hgroup class="section-header">
+                                <h2>Mood Graph <a href="#share-with-therapist" class="btn btn-success pull-right" data-toggle="modal">Share with therapist</a></h2>
+                            </hgroup>
+                            <div id="share-with-therapist" class="modal fade hide">
+                                <div class="wrapper-modal">
+                                    <a class="close pull-right" data-dismiss="modal">&times;</a>
+                                    <div class="page-header">
+                                        <h3>Share with your therapist</h3>
+                                    </div>
+                                    <form class="form-horizontal">
+                                        <fieldset>
+                                            <div class="control-group">
+                                                <label class="control-label">To:</label>
+                                                <div class="controls">
+                                                    <input type="email" class="input-xlarge" />
+                                                    <p class="help-block">What's the email address of the therapist?</p>
+                                                </div>
+                                            </div>
+                                            <div class="control-group">
+                                                <label class="control-label">From:</label>
+                                                <div class="controls">
+                                                    <input type="email" class="input-xlarge" />
+                                                    <p class="help-block">Tell the therapist who it's from.</p>
+                                                </div>
+                                            </div>                                            
+                                        </fieldset>
+                                        <fieldset class="share-mood-data">
+                                            <h4>Please use my mood data to make my therapy more successful.</h4>
+                                            <div id="share-mood-graph">
+                                                <!-- -->
+                                            </div>
+                                            <h5>4/4/11 &ndash; 4/7/11 mood graph</h5>
+                                        </fieldset>
+                                        <div class="form-actions">
+                                            <div class="pull-right">
+                                                <a href="" class="btn btn-primary">Send</a>
+                                                <a href="" class="btn" data-dismiss="modal">Cancel</a>
+                                            </div>
+                                        </div>                                        
+                                    </form>
+                                </div>
+                            </div>
+                            <form action="#" method="post">
+                                <h4 class="inline">See how you've been feeling this past</h4>
+                                <select class="span2">
+                                    <option>&mdash; week &mdash;</option>
+                                    <option>&mdash; month &mdash;</option>
+                                    <option>&mdash; year &mdash;</option>
+                                </select>
+                            </form>      
+                          
+                            <div id="chart-graph">
+                                <!-- chart graph placeholder -->
+                            </div>
+                        </section> <!-- end of tab-pane section -->
+                     
+                        <section>
+                            <hgroup class="section-header">
+                                <h2>Mood Meters</h2>
+                                <h4>See how your mood compares with others this month</h4>
+                            </hgroup>
+                            
+                            <div class="row">
+                                <section class="section-col graph1">
+                                    <!-- -->
+                                </section>
+                                <section class="section-col graph2">
+                                    <!-- -->
+                                </section>
+                                <section class="section-col graph3">
+                                    <!-- -->
+                                </section>                        
+                            </div>
+                        </section> <!-- end of tab-pane section -->
+                    </div> <!-- end of the tab-pane B1 -->
+
+                </div>
+             </div>
+        </div>
+        
+        <footer>
+            <div class="row">
+                <div class="footer-col">
+                    <h4>The Company</h4>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Terms of Use</a></li>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Information</h4>
+                    <address>
+                        Telemend <br />
+                        395 Page Mill Road <br />
+                        Palo Alto, CA 94306 <br />
+                        <a href="mailto:">Support Email</a>
+                        <strong class="phone">
+                            Phone: 
+                            <span>1.800.273.TALK (8255)</span>
+                        </strong>
+                    </address>
+                </div>  
+                <div class="footer-col">
+                    <h4>Our Blog</h4>
+                    <p>
+                        Virginis in modo genito in modo compungi mulierem ubi confudit huc apud brevi terminatur se ad nomine Hesterna. Audito doctrinis paruit unum conversa ait.
+                        <a href="" class="read-more">read more&hellip;</a>
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Disclaimer</h4>
+                    <p>
+                        Virginis in modo genito in modo compungi mulierem ubi confudit huc apud brevi terminatur se ad nomine Hesterna. 
+                    </p>
+                    <p>
+                        Audito doctrinis paruit unum conversa ait.
+                    </p>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="pull-left">
+                    <span>Copyright &copy; 2012 <a href="">Spoutlets.com</a></span>
+                </div>
+                    <a href="" class="logo-footer pull-right">Spoutlets.com</a>
+            </div>
+        </footer>
+        
+    </div>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
+    <script>window.jQuery || document.write('<script src="../public/js/jquery/jquery-1.7.1.min.js"><\/script>')</script>
+    <script src="../public/js/bootstrap/bootstrap.min.js"></script>
+    <script src="../public/js/highcharts/highcharts.js"></script>
+    <script src="../public/js/script.js"></script>
+    </body>
+ </html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Spoutlets &mdash; Main Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <link rel="stylesheet" type="text/css" href="../public/stylesheets/bootstrap.css">
+
+        <!--[if lt IE 9]>
+            <script src="../public/js/html5shiv/iepp.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+       <header>
+          <div class="navbar">
+              <div class="navbar-inner">
+                  <div class="container">
+
+                      <a href="index.html" class="brand"><strong>Spoutlets</strong>.com</a>
+                      
+                      <div class="greetings">
+                        <div class="greetings-face greetings-rate10"><!-- --></div>
+                        <span>How's it going, greatbillsofire?</span>
+                      </div>
+
+                      <ul class="nav pull-right">
+                          <li><a href="#"><i class="icon-cog icon-white"></i> Settings</a></li>
+                          <li><a href="index.html"><i class="icon-off icon-white"></i> Sign out</a></li>
+                      </ul>                 
+                  </div>
+              </div>
+          </div>
+      </header>    
+    <div class="container">       
+        <div id="main" class="clearfix">
+            <div class="row">
+                <div class="page-nav">
+                    <ul class="nav nav-tabs">
+                        <li class="active">
+                            <a href="tracker.html">Mood Tools</a>
+                        </li>
+                        <li>
+                            <a href="vent-stream.html">Social Therapy</a>
+                        </li>
+                        <li>
+                            <a href="#">You time</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    	
+            <div class="row">
+                <div class="tabbable tabs-left nav-left-col">
+                    <ul class="nav nav-tabs">
+                        <li class="active">
+                            <a href="tracker.html"><i class="icon-log-book-header"></i> Tracker</a>
+                        </li>
+                        <li>
+                            <a href="patterns.html"><i class="icon-stats-header"></i> Patterns</a>
+                        </li>
+                        <li>
+                            <a href="meters.html"><i class="icon-map-marker-header"></i> Meters</a>
+                        </li>
+                    </ul>
+
+                </div>
+              
+                <div class="tab-content">
+                    <div class="vertical-border"><!-- --></div>
+                    <div class="tab-pane active"> 
+                        <header class="page-header-main">
+                            <h1>Tracker <i class="icon-log-book-header"></i></h1>
+                        </header>
+
+                        <div class="row">
+                            <div class="pane-left-col">
+                                <section>
+                                    <hgroup class="section-header">
+                                        <h2>Mood Status</h2>
+                                        <h4 class="centered">How are you feeling?</h4>
+                                    </hgroup>
+                                    <div class="mood-status centered">
+                                        <div class="mood-face rate10"><!-- --></div>
+                                        <a href="#mood-rate" class="btn btn-primary" data-toggle="modal">Rate your mood</a>
+                                    </div>
+                                    <div class="modal hide fade" id="mood-rate">
+                                       <div class="wrapper-modal">
+                                            <hgroup class="section-header">
+                                                <h2>Select the state of your mood at this moment or day</h2>
+                                            </hgroup>
+                                            <div class="mood-form">
+                                                <a href="#" class="mood-face rate1" data-dismiss="modal"><!-- --></a>
+                                                <a href="#" class="mood-face rate2" data-dismiss="modal"><!-- --></a>
+                                                <a href="#" class="mood-face rate3" data-dismiss="modal"><!-- --></a>
+                                                <a href="#" class="mood-face rate4" data-dismiss="modal"><!-- --></a>
+                                                <a href="#" class="mood-face rate5" data-dismiss="modal"><!-- --></a>
+                                                <a href="#" class="mood-face rate6" data-dismiss="modal"><!-- --></a>
+                                                <a href="#" class="mood-face rate7" data-dismiss="modal"><!-- --></a>
+                                                <a href="#" class="mood-face rate8" data-dismiss="modal"><!-- --></a>
+                                                <a href="#" class="mood-face rate9" data-dismiss="modal"><!-- --></a>
+                                                <a href="#" class="mood-face rate10" data-dismiss="modal"><!-- --></a>
+                                            </div>
+                                       </div>
+                                    </div>
+                                </section> <!-- end of tab-pane section -->
+                            </div>
+                            <div class="pane-right-col">
+                                <section>
+                                    <hgroup class="section-header">
+                                        <h2>Mood Tags</h2>
+                                        <h4>Why are you feeling that way?</h4>
+                                    </hgroup>
+                                    <div class="form-horizontal">
+                                        <form action="#" class="form-feelings" method="post">
+                                                <input type="text" class="input-max" id="feelings" placeholder="Because of #job #money" />
+                                                <p class="help-block">Tag reason with #</p>
+                                                <div class="control-group">
+                                                    <button type="submit" class="btn btn-primary pull-right">Tag it</button>
+                                                </div>
+                                        </form>
+                                    </div>
+                                    <div class="well">
+                                        <div class="tag-feelings">
+                                            <a href="" class="lnk-tag" style="font-size: 13px;">#billie</a>
+                                            <a href="" class="lnk-tag" style="font-size: 16px;">#finals</a>
+                                            <a href="" class="lnk-tag" style="font-size: 24px;">#4.0</a>
+                                            <a href="" class="lnk-tag" style="font-size: 38px;">#tryouts</a>
+                                            <a href="" class="lnk-tag" style="font-size: 15px;">#relationship</a>
+                                            <a href="" class="lnk-tag" style="font-size: 26px;">#money</a>
+                                            <a href="" class="lnk-tag" style="font-size: 30px;">#tired</a>
+                                        </div>
+                                    </div>
+                                </section> <!-- end of tab-pane section --> 
+                            </div>
+                        </div>
+
+                    </div> <!-- end of the tab-pane A1 -->
+                </div>
+             </div>
+        </div>
+        
+        <footer>
+            <div class="row">
+                <div class="footer-col">
+                    <h4>The Company</h4>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Terms of Use</a></li>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Information</h4>
+                    <address>
+                        Telemend <br />
+                        395 Page Mill Road <br />
+                        Palo Alto, CA 94306 <br />
+                        <a href="mailto:">Support Email</a>
+                        <strong class="phone">
+                            Phone: 
+                            <span>1.800.273.TALK (8255)</span>
+                        </strong>
+                    </address>
+                </div>  
+                <div class="footer-col">
+                    <h4>Our Blog</h4>
+                    <p>
+                        Virginis in modo genito in modo compungi mulierem ubi confudit huc apud brevi terminatur se ad nomine Hesterna. Audito doctrinis paruit unum conversa ait.
+                        <a href="" class="read-more">read more&hellip;</a>
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Disclaimer</h4>
+                    <p>
+                        Virginis in modo genito in modo compungi mulierem ubi confudit huc apud brevi terminatur se ad nomine Hesterna. 
+                    </p>
+                    <p>
+                        Audito doctrinis paruit unum conversa ait.
+                    </p>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="pull-left">
+                    <span>Copyright &copy; 2012 <a href="">Spoutlets.com</a></span>
+                </div>
+                    <a href="" class="logo-footer pull-right">Spoutlets.com</a>
+            </div>
+        </footer>
+        
+    </div>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
+    <script>window.jQuery || document.write('<script src="../public/js/jquery/jquery-1.7.1.min.js"><\/script>')</script>
+    <script src="../public/js/bootstrap/bootstrap.min.js"></script>
+    <script src="../public/js/highcharts/highcharts.js"></script>
+    <script src="../public/js/script.js"></script>
+    </body>
+</html>
