@@ -1,14 +1,14 @@
-### Wireframes ###
+### Prototypes ###
 
-[suggest a new idea](https://github.com/akshatpradhan/wireframes/issues) |
-[get running locally](https://github.com/akshatpradhan/wireframes/wiki)
+[suggest a new idea](https://github.com/akshatpradhan/prototypes/issues) |
+[get running locally](https://github.com/akshatpradhan/prototypes/wiki)
 
-Wireframes is a showcase display of features/products I've wireframed.
+Prototypes is a showcase display of features/products I've wireframed.
 
-To see the wireframes:
+To see the prototypes:
 
     open views/*.html
 
 #### Screenshots ####
 
-![Screenshot](https://raw.github.com/akshatpradhan/wireframes/master/spoutlets/social_therapy.png)
+![Screenshot](https://raw.github.com/akshatpradhan/prototypes/master/spoutlets/social_therapy.png)
